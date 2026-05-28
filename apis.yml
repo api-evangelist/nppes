@@ -1,0 +1,32 @@
+aid: nppes
+name: NPPES
+description: "National Plan & Provider Enumeration System, info on healthcare providers registered in US"
+url: https://npiregistry.cms.hhs.gov/registry/help-api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: NPPES
+    description: "National Plan & Provider Enumeration System, info on healthcare providers registered in US"
+    humanURL: https://npiregistry.cms.hhs.gov/registry/help-api
+    baseURL: https://npiregistry.cms.hhs.gov/registry/help-api
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://npiregistry.cms.hhs.gov/registry/help-api
+common:
+  - type: Website
+    url: https://npiregistry.cms.hhs.gov/registry/help-api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
