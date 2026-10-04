@@ -39,7 +39,6 @@ apis:
   - name: NPPES
     description: "National Plan & Provider Enumeration System, info on healthcare providers registered in US"
     humanURL: https://npiregistry.cms.hhs.gov/registry/help-api
-    baseURL: https://npiregistry.cms.hhs.gov/registry/help-api
     tags:
       - Health
     properties:
