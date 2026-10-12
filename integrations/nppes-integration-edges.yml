@@ -1,0 +1,19 @@
+edges:
+- partner_name: axuall
+  partner: axuall
+  partner_match: domain
+  type: contract
+  channel: partner-built
+  relationship: processor-connection
+  direction: partner-built
+  evidence: https://github.com/api-evangelist/axuall/blob/main/openapi/axuall-providers-api-openapi.yml
+  contract_reference:
+    repo: axuall
+    spec_file: axuall-providers-api-openapi.yml
+    value: nppes
+    property: components.schemas.ProviderPrefillSource
+    detected_by: detect-payment-method-edges.py
+    detected: '2026-10-12'
+generated: '2026-10-12'
+method: searched
+checked: []

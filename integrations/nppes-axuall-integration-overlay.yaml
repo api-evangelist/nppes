@@ -1,0 +1,19 @@
+# DERIVED by build-integration-preconfigs.py (roadmap#949). Overlay on the PARTNER's contract:
+# where axuall's enum names nppes, and what that value is.
+overlay: 1.0.0
+info:
+  title: nppes as a processor-connection in axuall's contract
+  version: 1.0.0
+extends: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-providers-api-openapi.yml
+actions:
+- target: $.components.schemas.ProviderPrefillSource
+  update:
+    x-apievangelist-integration:
+      values:
+        nppes:
+          provider: nppes
+          relationship: processor-connection
+          evidence: https://github.com/api-evangelist/axuall/blob/main/openapi/axuall-providers-api-openapi.yml
+      method: derived
+      generated: '2026-10-12'
+      generator: build-integration-preconfigs.py
